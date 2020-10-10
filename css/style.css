@@ -1,0 +1,84 @@
+
+body  {
+  background-image: linear-gradient(to bottom right, lightcoral, lightgray);
+  font-size:14px;
+}
+h1  {
+  border-left: 1px solid none;
+  background-image: linear-gradient(to right, white, lightgray);
+  margin-top: 10px;
+}
+h3  {
+  font-size: 20px;
+  color: purple;
+  text-shadow: 1px 1px 2px white;  
+}
+/*css navbar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+  
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+
+}
+li a:hover {
+  background-color: purple;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px white;
+}
+
+/*summary list (tous les articles)*/
+summary a {
+  text-decoration: none;
+  color: green;
+
+}
+summary a:hover {
+  text-decoration: none;
+  color: white; 
+}
+/*-----*/
+.art {
+      border:1px solid white;
+      margin-top: 2px;
+      background-image: linear-gradient(to bottom right, PeachPuff , purple);
+      border-radius: 10px;
+      box-shadow: 5px 8px 10px purple;
+      color: white;
+      text-align: left;
+}
+/*pour le contact*/
+.cadre  {
+      border:1px solid white;
+      margin-top: 2px;
+      background-image: linear-gradient(to bottom right, PeachPuff , purple);
+      border-radius: 12px;
+      box-shadow: 12px 12px 10px purple;
+      color: white;
+    }
+ /*pour le table*/
+ table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
